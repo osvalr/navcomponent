@@ -1,4 +1,4 @@
-package com.osvalr.navigationexample.ui;
+package com.osvalr.navigationexample.ui.activity;
 
 import androidx.appcompat.app.AppCompatActivity;
 

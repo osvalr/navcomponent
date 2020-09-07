@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".ui.ViewTransactionFragment">
+    tools:context=".ui.fragment.ViewTransactionFragment">
 
     <TextView
         android:id="@+id/food"
@@ -21,12 +21,12 @@
         android:id="@+id/foodamt"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:text="$200"
         android:textSize="24sp"
         app:layout_constraintBottom_toTopOf="@id/dataamt"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toEndOf="@id/food"
-        app:layout_constraintTop_toTopOf="parent"
-        tools:text="$200" />
+        app:layout_constraintTop_toTopOf="parent" />
 
     <TextView
         android:id="@+id/data"
@@ -43,12 +43,12 @@
         android:id="@+id/dataamt"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:text="$200"
         android:textSize="24sp"
         app:layout_constraintBottom_toTopOf="@id/rentamt"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toEndOf="@id/data"
-        app:layout_constraintTop_toBottomOf="@id/foodamt"
-        tools:text="$200" />
+        app:layout_constraintTop_toBottomOf="@id/foodamt" />
 
     <TextView
         android:id="@+id/rent"
@@ -65,12 +65,12 @@
         android:id="@+id/rentamt"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:text="$200"
         android:textSize="24sp"
         app:layout_constraintBottom_toTopOf="@id/candlesamt"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toEndOf="@id/rent"
-        app:layout_constraintTop_toBottomOf="@id/dataamt"
-        tools:text="$200" />
+        app:layout_constraintTop_toBottomOf="@id/dataamt" />
 
     <TextView
         android:id="@+id/candles"
@@ -87,12 +87,12 @@
         android:id="@+id/candlesamt"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:text="$200"
         android:textSize="24sp"
         app:layout_constraintBottom_toTopOf="@id/utilityamt"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toEndOf="@id/candles"
-        app:layout_constraintTop_toBottomOf="@id/rentamt"
-        tools:text="$200" />
+        app:layout_constraintTop_toBottomOf="@id/rentamt" />
 
     <TextView
         android:id="@+id/utility"
@@ -109,10 +109,10 @@
         android:id="@+id/utilityamt"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:text="$200"
         android:textSize="24sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toEndOf="@id/utility"
-        app:layout_constraintTop_toBottomOf="@id/candlesamt"
-        tools:text="$200" />
+        app:layout_constraintTop_toBottomOf="@id/candlesamt" />
 </androidx.constraintlayout.widget.ConstraintLayout>
