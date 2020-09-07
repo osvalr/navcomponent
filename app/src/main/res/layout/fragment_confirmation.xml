@@ -7,8 +7,10 @@
     tools:context=".ui.fragment.ConfirmationFragment">
 
     <TextView
+        android:id="@+id/confirmation_message"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:text="@string/money_sent_to"
         android:textSize="24sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"

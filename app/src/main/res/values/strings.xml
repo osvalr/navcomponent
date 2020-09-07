@@ -11,4 +11,6 @@
     <string name="name">Name</string>
     <string name="amount">Amount</string>
     <string name="send">Send</string>
+    <string name="sending_money_to">Sending money to %1$s</string>
+    <string name="money_sent_to">$ %1$s was sent to %2$s</string>
 </resources>
