@@ -1,11 +1,7 @@
 package com.osvalr.navigationexample.ui.fragment;
 
-import com.osvalr.navigationexample.R;
+import com.osvalr.navigationexample.databinding.FragmentViewTransactionBinding;
 
 public class ViewTransactionFragment extends BaseFragment {
-
-    @Override
-    int getLayoutId() {
-        return R.layout.fragment_view_transaction;
-    }
+    private FragmentViewTransactionBinding binding;
 }
