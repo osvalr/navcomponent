@@ -12,7 +12,7 @@ import androidx.navigation.NavController;
 import androidx.navigation.Navigation;
 
 abstract class BaseFragment extends Fragment {
-    private NavController navController;
+    protected NavController navController;
 
     abstract int getLayoutId();
 
